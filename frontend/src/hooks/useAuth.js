@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://notesapp-rr5o.onrender.com/api";
 
 export default function useAuth() {
   const [token, setToken] = useState("");
